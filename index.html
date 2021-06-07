@@ -3,67 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <title>Ulises Rodríguez / Full-Stack Developer</title>
+    <link rel="shortcut icon" href="img/icono-uguez-portafolio1.png" type="image/x.icon">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <section class="nav-header">
-        <nav class="nav">
-            <a href="#inicio">Inicio</a>
-            <a href="#about-me">Acerca de</a>
-            <a href="#skills">Skills</a>
-            <!--            <a href="#">Servicios</a>-->
-            <a href="#contact">Contacto</a>
-        </nav>
-    </section>
-    <header id="inicio">
-
-        <section class="header-text">
-            <h2><span>¡</span>Hola<span>!</span></h2>
-            <h1>Soy <span>U</span>lises Rodríguez</h1>
-            <h2><span>D</span>esarrollador Full Stack</h2>
+    <header id="home">
+        <section class="nav-header">
+            <div class="container-logo">
+                <img src="img/icono-uguez-portafolio1.png" alt="Logo" class="img-logo">
+                <!--                <img src="img/icono-uguez-portafolio.png" alt="" class="img-icono">-->
+            </div>
+            <nav class="nav">
+                <a href="#home">HOME</a>
+                <a href="#about-me">ABOUT</a>
+                <a href="#services">SERVICES</a>
+                <a href="#briefcase">BRIEFCASE</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
         </section>
+        <section class="header-text">
+            <h2><span>¡</span>Hi<span>!</span></h2>
+            <h1>I am <span>U</span>lises Rodrí<span>guez</span></h1>
+            <h2><span>D</span>eveloper Full Stack</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #9e9797;">
+
+                </path>
+            </svg>
+        </div>
     </header>
-    <main>
+    <main >
         <section id="about-me" class="background-about-me">
-        <section class="container about-me">
-            <h2 class="title">Acerca de</h2>
-            <div class="container-about-me">
-                <img src="img/Ulise-Rodriguez.jpg" alt="Foto de Ulises Rodriguez" class="image-about-me">
-                <div class="contents-text">
-                    <h3><span>¿</span>Quien soy</h3>
-                    <h3>Soy Ulises Rodriguez, Full Satck <span>/</span> Bussines Developmen</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores beatae blanditiis delectus, deleniti deserunt dicta distinctio dolorem illum iusto maiores minima perspiciatis quae quo quos repudiandae sunt ut voluptas.
-                    </p>
+            <section class="container about-me">
+                <h2 class="title">ABOUT</h2>
+                <div class="container-about-me">
+<!--                    <div class="container-profile">-->
+                    <img src="img/Ulise-Rodriguez.jpg" alt="Foto de Ulises Rodriguez" class="image-about-me">
+
+                    <div class="contents-text">
+                        <h3>Who am i<span>?</span></h3>
+                        <h3>I am Ulises Rodriguez, Full Stack <span>/</span> Business Developer</h3>
+                        <p>I am Ulises Rodríguez, I am a developer with excellent communication skills, I love collaborating and working as a team, I am looking for a full time position in web development, where i can apply my knowledge and skills to continue improving.
+                        </p>
+                        <a class="button-download-cv" target="_blank" href="img/CV-Ulises-Rodriguez.pdf">Download CV</a>
+                    </div>
+                    </div>
+                    <div class="container-skills">
+                        <h2 class="title">Skills</h2>
+                        <div class="gallery-skills">
+                            <div class="box-gallery">
+                                <div class="image-skills">
+                                    <img src="img/HTML5.png" alt="HTML">
+                                    <div class="hover-gallery">
+                                        <img src="img/HTML5-grey-scale.png" alt="HTML">
+                                    </div>
+                                </div>
+                                <p>HTML <span>5</span></p>
+                            </div>
+                            <div class="box-gallery">
+                                <div class="image-skills">
+                                    <img src="img/CSS3.png" alt="CSS">
+                                    <div class="hover-gallery">
+                                        <img src="img/CSS3-grey-scale.png" alt="CSS">
+
+                                    </div>
+                                </div>
+                                <p>CSS <span>3</span></p>
+                            </div>
+                            <div class="box-gallery">
+                                <div class="image-skills">
+                                    <img src="img/JS.png" alt="JavaScript">
+                                    <div class="hover-gallery">
+                                        <img src="img/JS-grey-scale.png" alt="JavaScript">
+
+                                    </div>
+                                </div>
+                                <p><span>J</span>avaScript</p>
+                            </div>
+                        </div>
+                    </div>
+<!--                    </div>-->
+
+            </section>
+        </section>
+        <section  id="services" class="services">
+            <div class="container">
+                <h2 class="title"><span>S</span>ervices</h2>
+                <div class="container-target-services">
+                    <div class="target">
+                        <div class="target-icon">
+                            <img src="img/icono-soluciones-web1.svg" alt="">
+                        </div>
+                        <div class="target-border">
+                            <h2>Solutions in web infrastructure</h2>
+                            <p>Services aimed at the administration and operation
+                                of servers in hostile operating environments, mainly
+                                the internet.</p>
+                        </div>
+                    </div>
+                    <div class="target">
+                        <div class="target-icon">
+                            <img src="img/icono-diseno-web1.svg" alt="">
+                        </div>
+                        <div class="target-border">
+                            <h2>Design, development and Web programming</h2>
+                            <p>Develop functional, effective HTML sites according
+                                to your objectives: incorporating the latest
+                                technologies to improve usability and aesthetics.</p>
+                        </div>
+                    </div>
+                    <div class="target">
+                        <div class="target-icon">
+                            <img src="img/iconos-aplicaciones1.svg" alt="">
+                        </div>
+                        <div class="target-border">
+                            <h2>Development of mobile apps</h2>
+                            <p>We create applications and sites on mobile
+                                devices (IOS and Android) to help boost the
+                                image and operation of your company.</p>
+                        </div>
+                    </div>
                 </div>
-                <a class="button-download-cv" target="_blank" href="img/CV-Ulises-Rodriguez.pdf">Download CV</a>
-<!--                <button class="button-download-cv">Download CV</button>-->
             </div>
         </section>
-        </section>
-        <section  id="skills" class="skills">
-            <div class="container">
-                <h2 class="title"><span>S</span>kills</h2>
-<!--                Galeria-->
-                <div class="gallery-skills">
-                    <div class="image-skills">
-                        <img src="img/HTML5.png" alt="HTML">
-                        <div class="hover-gallery">
-                            <img src="img/HTML5-grey-scale.png" alt="HTML">
-                            <p>HTML <span>5</span></p>
+        <section id="briefcase" class="briefcase">
+            <div class="container-bc">
+                <h2 class="title">Briefcase</h2>
+                <div class="gallery-briefcase">
+                    <!--             elemento 1-->
+                    <div class="image-briefcase">
+                        <img src="img/img1.jpg" alt="escritorio">
+                        <!--           Animación-->
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="image-skills">
-                        <img src="img/CSS3.png" alt="CSS">
-                        <div class="hover-gallery">
-                            <img src="img/CSS3-grey-scale.png" alt="CSS">
-                            <p>CSS <span>3</span></p>
+                    <!--             elemento 2-->
+                    <div class="image-briefcase">
+                        <img src="img/img2.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="image-skills">
-                        <img src="img/JS.png" alt="JavaScript">
-                        <div class="hover-gallery">
-                            <img src="img/JS-grey-scale.png" alt="JavaScript">
-                            <p><span>J</span>avaScript</p>
+                    <!--             elemento 3-->
+                    <div class="image-briefcase">
+                        <img src="img/img3.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <!--             elemento 4-->
+                    <div class="image-briefcase">
+                        <img src="img/img4.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <!--             elemento 5-->
+                    <div class="image-briefcase">
+                        <img src="img/img5.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <!--             elemento 6-->
+                    <div class="image-briefcase">
+                        <img src="img/img6.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <!--             elemento 7-->
+                    <div class="image-briefcase">
+                        <img src="img/img7.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <!--             elemento 8-->
+                    <div class="image-briefcase">
+                        <img src="img/img8.jpg" alt="escritorio">
+                        <div class="hover-gallery-bc">
+                            <img src="img/icono1.png" alt="animación">
+                            <p>Nuestro trabajo</p>
                         </div>
                     </div>
                 </div>
