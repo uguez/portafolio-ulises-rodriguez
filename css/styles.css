@@ -507,7 +507,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width:1200px) {
     .services {
         height: 800px;
     }
